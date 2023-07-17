@@ -1,0 +1,17 @@
+{{ define "header" }}
+{{ template "partials/header" . }}
+{{ end }}
+
+{{ define "loadcss" }}
+    {{ template "partials/loadcss" . }}
+{{ end }}
+
+{{ define "loadjs" }}
+    {{ template "partials/loadjs" . }}
+{{ end }}
+
+{{ define "footer" }}
+{{ template "partials/footer" . }}
+{{ end }}
+
+{{ template "main" . }}
